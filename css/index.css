@@ -1,0 +1,151 @@
+@import url("font-faces.css");
+@import url("fonts.css");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+body {
+    background: #cacaca;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+.main-container {
+    background: #ffffff;
+}
+
+/********* HEADER *********/
+.header-container {
+    margin: 0 375px;
+    line-height: 90px;
+}
+
+.sitename-container {
+    float: left;
+}
+
+.site-name-link {
+    color: #637f83;
+}
+
+.site-name-link:hover {
+    color: #e4551d;
+}
+
+.navigation-container {
+    float: right;
+}
+
+.navigation-list {
+    
+}
+
+.navigation-item {
+    padding-left: 50px;
+    float: left;
+}
+
+.navigation-link {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+
+    color: #637f83;
+    text-transform: uppercase;
+}
+
+.navigation-link:hover {
+    color: #e4551d;
+}
+
+.navigation-link:hover:before {
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 20px;
+    text-align: center;
+    
+    font-family: FontAwesome;
+    content: "\f078";
+    color: #637f83;
+}
+/********* HEADER END *********/
+
+/********* BANNER *********/
+.banner-container {
+    position: relative;
+    height: 520px;
+
+    background: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.banner-inner-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
+
+.banner-header-container {
+    text-align: center;
+}
+
+.banner-header {
+    width: 480px;
+
+    color: #ffffff;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+.banner-subheader {
+    width: 360px;
+    margin: 25px auto 40px auto;
+
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.long-arrow-link {
+    display: inline-block;
+
+    width: 70px;
+    height: 70px;
+
+    background-color: #e4551d;
+    color: #ffffff;
+    border-radius: 50%;
+}
+
+.long-arrow-link:hover {
+    background-color: #ffffff;
+    color: #e4551d;
+}
+
+.long-arrow-link:after {
+    display: inline-block;
+    margin-top: 0.6em;
+
+    font-family: FontAwesome;
+    font-size: 32px;
+    content: "\f175";
+    
+}
+/********* BANNER END *********/
+
+.clear-fix:after {
+    display: table;
+    clear: both;
+    content: "";
+}

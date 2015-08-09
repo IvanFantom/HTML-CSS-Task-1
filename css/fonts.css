@@ -1,0 +1,51 @@
+﻿.ssp-black {
+    font-family: SourceSansProBlack;
+}
+.ssp-bold {
+    font-family: SourceSansProBold;
+}
+
+.pts-bold {
+    font-family: PTSansBold;
+}
+
+.lato-regular {
+    font-family: LatoRegular;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-bell:before {
+  content: "\f0a2";
+}
+.fa-arrow-left:before {
+    font: 36px FontAwesome;
+    color: #ab6f80;
+    content: "\f0a8";
+    vertical-align: middle;
+}
+.fa-arrow-right:before {
+    font: 36px FontAwesome;
+    color: #ab6f80;
+    content: "\f0a9";
+    vertical-align: middle;
+}
+
+.font-huge {
+    font-size: 40px;
+}
+
+.font-large {
+    font-size: 32px;
+}
+
+.font-small {
+    font-size: 16px;
+}
